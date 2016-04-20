@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Writer.js</title>
+    <link rel="stylesheet" href="css/cursor.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel="stylesheet" type='text/css'>
+  </head>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background: #1F2124;
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      color: #F6B352;
+      font-family: 'Open Sans Condensed';
+      font-weight: 300;
+      font-size: 40px;
+    }
+
+    p {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    #twitter {
+      text-decoration: none;
+      color: #F68657;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+
+  <body>
+
+    <p>
+      <span id="writer-output" style="display: inline-block"></span>
+      <span class='cursor'>|</span>
+    </p>
+
+    <a id="twitter" href="https://twitter.com/itsdavelux" target="_blank"><i class="ion-social-twitter"></i> itsdavelux</a>
+    <a href="https://github.com/davidlux/writerjs"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/writer.js"></script>
+
+    <script type="text/javascript">
+      var defaultMessage = ["Hi, I'm writerJS. I'll write anything for you, anywhere, anytime."];
+      writer(defaultMessage, '#writer-output', 150, true);
+    </script>
+
+  </body>
+</html>

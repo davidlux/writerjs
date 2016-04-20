@@ -1,0 +1,16 @@
+.cursor {
+  -webkit-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+
+-webkit-@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
