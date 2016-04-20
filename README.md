@@ -16,7 +16,7 @@ I hope you like it! :-) Feel free to make Pull requests or fork the whole damn t
 
 2. put this into you html, where you want your text to be written:
 ```html
-<span id="writer-output"></span><span class='cursor'>|</span></pre>
+<span id="writer-output"></span><span class='cursor'>|</span>
 ```
 
 3. put the content of css/cursor.css into your css
