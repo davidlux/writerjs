@@ -21,9 +21,9 @@ I hope you like it! :-) Feel free to make Pull requests or fork the whole damn t
 
 <strong>Step 3:</strong> Put the content of css/cursor.css into your css
 
-<strong>Step 4:</strong> Use <strong>writer(text, selector, speed, infinte)</strong> to get your writing animation going
+<strong>Step 4:</strong> Use <strong>writer(text, selector, speed, infinite)</strong> to get your writing animation going
 
 - <strong>text:</strong> Put in the text you want to be written. Either as a "String" or as an ["Array of Strings"].
 - <strong>selector:</strong> Put in the jQuery Selector of the element you want the text be written into. E.g. "#writer-output".
 - <strong>speed:</strong> this one is optional, it's the speed you want the text to be written. It's 150 by default.
-- <strong>infinte:</strong> this one is optional, put in <strong>true</strong> to loop the animation infinitely.
+- <strong>infinte:</strong> this one is optional and <strong>false<strong> by default, put in <strong>true</strong> to loop the animation infinitely.
