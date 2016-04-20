@@ -37,8 +37,6 @@
     }
   };
 
-
-
   global.writer = writer;
 
 }(window, jQuery));
