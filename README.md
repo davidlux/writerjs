@@ -14,14 +14,14 @@ I hope you like it! :-) Feel free to make Pull requests or fork the whole damn t
 <script type="text/javascript" src="js/writer.js"></script></pre>
 ```
 
-<strong>Step 2:</strong> put this into you html, where you want your text to be written:
+<strong>Step 2:</strong> Put this into you html, where you want your text to be written:
 ```html
 <span id="writer-output"></span><span class='cursor'>|</span>
 ```
 
-<strong>Step 3:</strong> put the content of css/cursor.css into your css
+<strong>Step 3:</strong> Put the content of css/cursor.css into your css
 
-<strong>Step 4:</strong> use <strong>writer(text, selector, speed, infinte)</strong> to get your writing animation going
+<strong>Step 4:</strong> Use <strong>writer(text, selector, speed, infinte)</strong> to get your writing animation going
 
 - <strong>text:</strong> Put in the text you want to be written. Either as a "String" or as an ["Array of Strings"].
 - <strong>selector:</strong> Put in the jQuery Selector of the element you want the text be written into. E.g. "#writer-output".
