@@ -6,7 +6,6 @@ I hope you like it! :-) Feel free to make Pull requests or fork the whole damn t
 
 <br>
 <br>
-
 <strong>HOW TO USE IT:</strong>
 
 1. put this into your html:
