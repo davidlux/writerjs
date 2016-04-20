@@ -9,11 +9,15 @@ I hope you like it! :-) Feel free to make Pull requests or fork the whole damn t
 <strong>HOW TO USE IT:</strong>
 
 1. put this into your html:
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
-  <script type="text/javascript" src="js/writer.js"></script>
+```html
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+<script type="text/javascript" src="js/writer.js"></script></pre>
+```
 
 2. put this into you html, where you want your text to be written:
-  <span id="writer-output"></span><span class='cursor'>|</span>
+```html
+<span id="writer-output"></span><span class='cursor'>|</span></pre>
+```
 
 3. put the content of css/cursor.css into your css
 
