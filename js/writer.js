@@ -5,13 +5,13 @@
     if (!selector) throw "Missing selector";
 
     var text = input.toString().split("") || "Default";
-    var duration = milliseconds || 100;
+    var speed = milliseconds || 100;
     var infinite = infinite || false;
 
     var write = function(letter, delayMultiplier) {
       setTimeout(function() {
         $(selector).append(letter);
-      }, delayMultiplier * duration);
+      }, delayMultiplier * speed);
     };
 
     var iterate = function() {
@@ -27,7 +27,7 @@
     var infiniteIterate = function() {
       clear();
       iterate();
-      setTimeout(infiniteIterate, text.length * duration);
+      setTimeout(infiniteIterate, text.length * speed);
     }
 
     if (!infinite) {
