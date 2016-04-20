@@ -11,7 +11,7 @@ I hope you like it! :-) Feel free to make Pull requests or fork the whole damn t
 <strong>Step 1:</strong> Put this into your html (The first is jQuery and the second one is writer.js that you find in this repo in the js folder):
 ```html
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
-<script type="text/javascript" src="js/writer.js"></script></pre>
+<script type="text/javascript" src="js/writer.js"></script>
 ```
 
 <strong>Step 2:</strong> Put this into you html, where you want your text to be written:
