@@ -14,29 +14,30 @@
       }, delayMultiplier * duration);
     };
 
-    var clear = function() {
-      $(selector).html("");
-    }
-
-    if (!infinite) {
+    var iterate = function() {
       for (var i = 0; i < text.length; i++) {
         write(text[i], i);
       }
-    } else {
+    };
 
-      for (var i = 0; i < text.length; i++) {
-        write(text[i], i);
-      };
+    var clear = function() {
+      $(selector).html("");
+    };
 
-      setInterval(function() {
-        clear();
-        for (var i = 0; i < text.length; i++) {
-          write(text[i], i);
-          }
-      }, text.length * duration);
+    var infiniteIterate = function() {
+      clear();
+      iterate();
+      setTimeout(infiniteIterate, text.length * duration);
     }
 
+    if (!infinite) {
+      iterate();
+    } else {
+      infiniteIterate();
+    }
   };
+
+
 
   global.writer = writer;
 
